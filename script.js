@@ -10,7 +10,7 @@ function firstNonRepeatedChar(str) {
 		let c=str[i]
 		if(obj[c]==1) return c
 	}
-	return res
+	return null
 }
 
 const input = prompt("Enter a string");
